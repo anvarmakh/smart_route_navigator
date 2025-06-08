@@ -1,0 +1,44 @@
+# ✅ requirements.txt для SmartRoute Truck Navigator
+
+# 🔧 Core
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+redis
+python-dotenv
+asyncpg
+
+# 🔐 Security
+passlib[bcrypt]
+python-jose
+
+# 📡 External APIs
+httpx
+requests
+geopy
+stripe  # 💳 Платежи через Stripe
+
+# 🛠️ Background Tasks / Scheduling
+celery
+
+# 🧪 Testing
+pytest
+pytest-mock
+httpx[http2]
+
+# 📤 Email
+email-validator
+
+# 📈 Optional (analytics, dev)
+pandas
+
+# 💡 Типизация (если используешь)
+types-requests
+
+# 🧰 Локальные dev-tools (опционально)
+black
+isort
+mypy
+
+# 💬 Telegram (через requests)
